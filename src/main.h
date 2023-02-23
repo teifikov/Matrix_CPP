@@ -4,8 +4,8 @@
 
 class S21Matrix {
     private:
-        int rows_, cols_;         // Rows and columns
-        double **matrix_;         // Pointer to the memory where the matrix is allocated
+        int rows_, cols_;
+        double **matrix_;
 
     public:
         S21Matrix();	                    // Базовый конструктор, инициализирующий матрицу некоторой заранее заданной размерностью
